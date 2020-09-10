@@ -32,7 +32,7 @@ import { CardExample } from "./Components/Comp";
 import { FooterPage } from "./Components/Foot";
  
 export const PS = (prop) => {
-  /*const { id } = this.props.match.params
+  const { id } = this.props.match.params
   const [product, setProduct] = useState({});
 
   useEffect(() => {
@@ -91,7 +91,7 @@ export const PS = (prop) => {
     </div>
   );
 };
-*/
+/*
 state = {
     product: null
   }
@@ -143,4 +143,4 @@ state = {
       </p>
     </div>
   );
-}
+}*/
