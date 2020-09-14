@@ -32,7 +32,7 @@ import { CardExample } from "./Components/Comp";
 import { FooterPage } from "./Components/Foot";
  
 export const PS = (prop) => {
-  const { id } = this.props.match.params
+  const { id } = useParams
   const [product, setProduct] = useState({});
 
   useEffect(() => {
